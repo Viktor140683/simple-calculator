@@ -1,0 +1,14 @@
+https://github.com/Viktor140683/simple-calculator.git
+
+function calculator(a,b,sign){
+switch(a,b,sign){
+    case "+":  return a + b;
+     case "-":  return  a - b;
+     case "*":  return a * b;
+     case "/":  return a / b;
+     case a!== 'number': return "unknown value";
+    case b!== 'number': return "unknown value";
+    default:
+    return "unknown value"
+ }
+}
